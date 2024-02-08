@@ -20,7 +20,7 @@ const factController = new FactController(API_KEY)
  
 app.get("/",  (req: Request, res: Response) => {
   res.header({"content-type":"text/HTML"})
-  res.send("<h1>Knowledge API</h1>")
+  res.send("<h1>Knowledge API</h1><p>API en express.js pour recuperer des faits, citations et question/réponse aléatoire</p>")
 })
 app.get("/trivia/get/:category", async (req: Request, res: Response) => {
   await triviaController.getTrivia(req, res)

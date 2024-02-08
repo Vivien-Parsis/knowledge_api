@@ -12,7 +12,7 @@ API en express.js pour recuperer des faits, citations et question/réponse aléa
 - npx
 
 ## Instruction d'installation
-- cloner le dépot : `git clone https://github.com/Vivien-Parsis/knowledge_api/tree/main`
+- cloner le dépot : `git clone https://github.com/Vivien-Parsis/knowledge_api`
 - dans le repertoire, pour installer les dependances : `npm i`
 - Creer un fichier .env, puis mettre dedans `API_KEY=` plus votre clé api. [recupérer votre clé api ici](https://api-ninjas.com/api)
 - pour le lancer le serveur : `npm start`

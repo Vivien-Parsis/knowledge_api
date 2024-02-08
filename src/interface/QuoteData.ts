@@ -1,7 +1,7 @@
 interface QuoteData {
-    Citation: string;
-    Auteur: string;
-    Catégorie: string;
+    Citation: string
+    Auteur: string
+    Catégorie: string
   }
   
   export { QuoteData }

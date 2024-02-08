@@ -1,14 +1,12 @@
 {
-  "name": "back",
+  "name": "Knowledge_API",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon --exec ts-node index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec ts-node index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "author": "VivienP",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.21",

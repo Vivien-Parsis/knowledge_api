@@ -11,11 +11,19 @@ API en express.js pour recuperer des faits, citations et question/réponse aléa
 - npm
 - npx
 
-## Instruction d'installation
+## Instruction d'installation 
+
+### Via la source 
+
 - cloner le dépot : `git clone https://github.com/Vivien-Parsis/knowledge_api`
-- dans le repertoire, pour installer les dependances : `npm i && npm i --save-dev @types/swagger-ui-express`
+- dans le repertoire, pour installer les dependances : `npm i && npm i --save-dev @types/swagger-ui-express && npm i --save-dev @types/swagger-jsdoc && npm i ts-node typescript`
 - Creer un fichier .env, puis mettre dedans `API_KEY=` plus votre clé api. [recupérer votre clé api ici](https://api-ninjas.com/api)
 - pour le lancer le serveur : `npm start`
+
+## Via docker
+
+- `docker build -t knowledgeapi:latest .`
+- `docker run -p 3000:3000 --env API_KEY="{Votre_clé_api}" knowledgeapi` [recupérer votre clé api ici](https://api-ninjas.com/api)
 
 ## Adresse
 

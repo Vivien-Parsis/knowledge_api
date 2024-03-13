@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "module": "es20215",
-    "target": "es20215",
+    "module": "commonjs"
     "sourceMap": true
   }
 }
